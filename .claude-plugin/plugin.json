@@ -1,0 +1,6 @@
+{
+  "name": "model-router",
+  "version": "0.1.0",
+  "description": "Classifies each prompt into a tier (haiku / sonnet / opus) and routes the work to a subagent pinned to that model.",
+  "author": { "name": "Prime Communications" }
+}
