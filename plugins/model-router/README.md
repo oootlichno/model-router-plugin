@@ -47,7 +47,8 @@ Edit the `SIGNALS` patterns and the size thresholds in `hooks/classify.js`. Test
 ## Install
 
 ```
-/plugin install model-router --marketplace oootlichno/model-router-plugin
+/plugin marketplace add oootlichno/model-router-plugin
+/plugin install model-router@claude-model-router
 ```
 
 The repo is private, so this needs GitHub read access on your machine. If your organisation distributes the plugin through claude.ai Organization settings, it is installed for you and this step is not needed.
