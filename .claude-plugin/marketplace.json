@@ -1,0 +1,11 @@
+{
+  "name": "prime-devops-plugins",
+  "owner": { "name": "Prime Communications" },
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./plugins/model-router",
+      "description": "Routes each request to Haiku, Sonnet, or Opus based on complexity"
+    }
+  ]
+}
