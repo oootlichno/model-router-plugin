@@ -1,6 +1,9 @@
 {
   "name": "prime-devops-plugins",
-  "owner": { "name": "Prime Communications" },
+  "description": "Claude Code plugins from Prime Communications. Includes model-router, which sends each request to Haiku, Sonnet or Opus by complexity.",
+  "owner": {
+    "name": "Prime Communications"
+  },
   "plugins": [
     {
       "name": "model-router",

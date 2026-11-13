@@ -43,3 +43,11 @@ For a team or enterprise rollout, publish the folder to a plugin marketplace or 
 ## Tuning
 
 Edit the `SIGNALS` patterns and the size thresholds in `hooks/classify.js`. Test with `node -e` against `classify()` (exported), then restart the session to pick up changes.
+
+## Install
+
+```
+/plugin install model-router --marketplace oootlichno/model-router-plugin
+```
+
+The repo is private, so this needs GitHub read access on your machine. If your organisation distributes the plugin through claude.ai Organization settings, it is installed for you and this step is not needed.
